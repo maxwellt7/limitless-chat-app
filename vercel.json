@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "env": {
+    "LIMITLESS_API_KEY": {
+      "description": "Your Limitless API key"
+    },
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key (optional if using Anthropic)"
+    },
+    "ANTHROPIC_API_KEY": {
+      "description": "Your Anthropic API key (optional if using OpenAI)"
+    }
+  }
+}
